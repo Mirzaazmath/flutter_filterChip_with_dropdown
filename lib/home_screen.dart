@@ -36,6 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  // Custom Widget
                   CustomFilterChipWithDropDown(
                     filterList: _filters,
                     title: filterTitle,
